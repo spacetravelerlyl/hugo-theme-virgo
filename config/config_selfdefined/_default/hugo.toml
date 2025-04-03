@@ -1,0 +1,19 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = '进修日记'
+
+# 启用主题
+theme = 'virgo'
+
+hasCJKLanguage = true
+summaryLength = 80
+
+enableGitInfo = true
+timeZone = 'Asia/Shanghai'
+
+ignoreFiles = ['\\.obsidian/*']
+
+[pagination]
+  disableAliases = false
+  pagerSize = 10000
+  path = 'page'

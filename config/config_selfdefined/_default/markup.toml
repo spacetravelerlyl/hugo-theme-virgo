@@ -1,0 +1,16 @@
+# 以下为 Markdown 解析擎的一些设置，
+# 建议保持不变
+
+[markup.asciidocExt]
+	preserveTOC = true
+[markup.highlight]
+	# 代码块显示风格、行号显示
+	style = "github"
+	lineNos = true
+[markup.tableOfContents]
+	endLevel = 3
+	ordered = false
+	startLevel = 2
+[markup.goldmark]
+	[markup.goldmark.renderer]
+		unsafe = true
